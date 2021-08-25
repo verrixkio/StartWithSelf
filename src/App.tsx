@@ -16,6 +16,8 @@ function App() {
     });
   };
 
+  console.log(process.env.REACT_APP_DEV, "react dev")
+
   return (
     <div className="App">
       <NewTodo onAddTodo={todoAddHandler}/>
